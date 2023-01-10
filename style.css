@@ -1,0 +1,107 @@
+body{
+    display: block;
+}
+.body{
+    margin: 0;
+    background-color: #e3e3e3;
+    flex-direction: column;
+    min-height: 100vh
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    border-bottom: 2px solid grey ;
+}
+.link{
+    font-size: medium;
+    color: darkred;
+    text-decoration: none;
+    transition: color 30ms;
+    padding-left: 5px;
+    font-family: Lucida, monospace;
+}
+.link-header{
+    padding: 10px;
+    translate: 2s;
+    font-size: large;
+}
+.img{
+    padding-top: 5px;
+    height: 500px;
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+h1{
+    font-size: xx-large;
+    font-family:Lucida, serif ;
+}
+section{
+    display: block;
+}
+.section{
+    flex-grow: 1;
+    padding-left: 50px;
+}
+aside{
+    display: block;
+}
+.aside{
+    width: 400px;
+    flex-grow: 0;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+footer{    display: flex;
+}
+.footer{
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    border-top: 2px solid grey;
+    font-family:Lucida, monospace;
+    font-size: large;
+}
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Lucida, monospace;
+    font-size: medium;
+}
+a:hover{
+    color: black ;
+}
+h2{
+    font-family: Lucida, serif ;
+    color: #686A6C;
+    border-left: 10px solid darkred;
+    padding-left: 10px;
+    font-size: x-large;
+}
+img {
+    overflow: clip;
+}
+.material-icons{
+    font-size: 36px;
+    color: #686A6C;
+}
+li{
+    font-family: Lucida, monospace;
+}
+.second{
+padding-left: 20px;
+}
+
